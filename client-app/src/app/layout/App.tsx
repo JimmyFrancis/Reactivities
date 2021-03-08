@@ -51,7 +51,6 @@ function App() {
               />
               <Route path="/errors" component={TestErrors} />
               <Route path="/server-error" component={ServerError} />
-              <Route path="/login" component={LoginForm} />
               <Route component={NotFound} /> 
               </Switch> 
             </Container>
